@@ -1,3 +1,5 @@
+// these are for local file version controlling system
+
 git log 		(checking changes)
 git init 		(starting git function)
 git add 		(Add the file to save its version)
@@ -12,3 +14,16 @@ git add -u 		stages modifications and deletions, without new files
 git commit -m 	(Save and name as user want) git commit -m "smth name here"
 
 git diff		Check the different before and now.
+
+// Uploading file to github respo
+
+
+$ git remote add origin "..."     this connect path to current working respo
+
+
+$ git push -u origin master
+-u      link up with local and remote respo
+origin  name of remote 
+master  name of branch (master is main branch btw)
+
+git push -u origin master
